@@ -33,28 +33,28 @@ const Index = () => {
         <Card className="bg-white/95 backdrop-blur-xl rounded-[2rem] md:rounded-[3rem] shadow-2xl overflow-hidden">
           <Tabs defaultValue="home" className="w-full">
             <TabsList className="w-full flex flex-wrap justify-center gap-3 p-6 bg-white/90 sticky top-0 z-50 backdrop-blur-lg border-b-4 border-primary/40 rounded-none shadow-lg">
-              <TabsTrigger value="home" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+              <TabsTrigger value="home" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-primary/20 text-primary border-primary/50 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/30 transition-all">
                 🏠 HOME
               </TabsTrigger>
-              <TabsTrigger value="storia" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+              <TabsTrigger value="storia" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-primary/20 text-primary border-primary/50 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/30 transition-all">
                 📖 STORIA
               </TabsTrigger>
-              <TabsTrigger value="tecnico" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+              <TabsTrigger value="tecnico" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-secondary/20 text-secondary border-secondary/50 data-[state=active]:bg-secondary data-[state=active]:text-white data-[state=active]:border-secondary data-[state=active]:shadow-lg hover:bg-secondary/30 transition-all">
                 🎓 TECNICO
               </TabsTrigger>
-              <TabsTrigger value="professionale" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+              <TabsTrigger value="professionale" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-secondary/20 text-secondary border-secondary/50 data-[state=active]:bg-secondary data-[state=active]:text-white data-[state=active]:border-secondary data-[state=active]:shadow-lg hover:bg-secondary/30 transition-all">
                 🔧 PROFESSIONALE
               </TabsTrigger>
-              <TabsTrigger value="pcto" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+              <TabsTrigger value="pcto" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-primary/20 text-primary border-primary/50 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/30 transition-all">
                 💼 PCTO
               </TabsTrigger>
-              <TabsTrigger value="internazionalizzazione" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+              <TabsTrigger value="internazionalizzazione" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-secondary/20 text-secondary border-secondary/50 data-[state=active]:bg-secondary data-[state=active]:text-white data-[state=active]:border-secondary data-[state=active]:shadow-lg hover:bg-secondary/30 transition-all">
                 🌍 INTERNAZIONALIZZAZIONE
               </TabsTrigger>
-              <TabsTrigger value="contatti" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+              <TabsTrigger value="contatti" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-primary/20 text-primary border-primary/50 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/30 transition-all">
                 📍 CONTATTI
               </TabsTrigger>
-              <TabsTrigger value="galleria" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+              <TabsTrigger value="galleria" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-secondary/20 text-secondary border-secondary/50 data-[state=active]:bg-secondary data-[state=active]:text-white data-[state=active]:border-secondary data-[state=active]:shadow-lg hover:bg-secondary/30 transition-all">
                 📸 GALLERIA
               </TabsTrigger>
             </TabsList>
