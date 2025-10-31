@@ -138,49 +138,75 @@ const Index = () => {
                     <table className="w-full text-center">
                       <thead>
                         <tr className="bg-gradient-to-r from-primary to-secondary text-white">
-                          <th className="p-3 rounded-tl-lg">Ora</th>
-                          <th className="p-3 rounded-tr-lg">Fascia Oraria</th>
+                          <th className="p-3 rounded-tl-lg">
+                            <div className="text-sm">시간</div>
+                            <div className="text-xs">Ora</div>
+                          </th>
+                          <th className="p-3 rounded-tr-lg">
+                            <div className="text-sm">시간대</div>
+                            <div className="text-xs">Fascia Oraria</div>
+                          </th>
                         </tr>
                       </thead>
                       <tbody className="text-sm md:text-base">
                         <tr className="border-b hover:bg-green-100/50 transition-colors">
-                          <td className="p-3 font-semibold">Prima ora</td>
+                          <td className="p-3 font-semibold">
+                            <div>1교시 | Prima ora</div>
+                          </td>
                           <td className="p-3">8:30-9:20</td>
                         </tr>
                         <tr className="border-b hover:bg-green-100/50 transition-colors">
-                          <td className="p-3 font-semibold">Seconda ora</td>
+                          <td className="p-3 font-semibold">
+                            <div>2교시 | Seconda ora</div>
+                          </td>
                           <td className="p-3">9:20-10:10</td>
                         </tr>
                         <tr className="border-b hover:bg-green-100/50 transition-colors">
-                          <td className="p-3 font-semibold">Terza ora</td>
+                          <td className="p-3 font-semibold">
+                            <div>3교시 | Terza ora</div>
+                          </td>
                           <td className="p-3">10:10-11:00</td>
                         </tr>
                         <tr className="bg-orange-100 border-b">
-                          <td className="p-3 font-bold text-orange-700">Intervallo</td>
+                          <td className="p-3 font-bold text-orange-700">
+                            <div>휴식 | Intervallo</div>
+                          </td>
                           <td className="p-3 font-bold text-orange-700">11:00-11:15</td>
                         </tr>
                         <tr className="border-b hover:bg-green-100/50 transition-colors">
-                          <td className="p-3 font-semibold">Quarta ora</td>
+                          <td className="p-3 font-semibold">
+                            <div>4교시 | Quarta ora</div>
+                          </td>
                           <td className="p-3">11:15-12:10</td>
                         </tr>
                         <tr className="border-b hover:bg-green-100/50 transition-colors">
-                          <td className="p-3 font-semibold">Quinta ora</td>
+                          <td className="p-3 font-semibold">
+                            <div>5교시 | Quinta ora</div>
+                          </td>
                           <td className="p-3">12:10-13:00</td>
                         </tr>
                         <tr className="border-b hover:bg-green-100/50 transition-colors">
-                          <td className="p-3 font-semibold">Sesta ora</td>
+                          <td className="p-3 font-semibold">
+                            <div>6교시 | Sesta ora</div>
+                          </td>
                           <td className="p-3">13:00-13:50</td>
                         </tr>
                         <tr className="bg-orange-100 border-b">
-                          <td className="p-3 font-bold text-orange-700">Intervallo</td>
+                          <td className="p-3 font-bold text-orange-700">
+                            <div>휴식 | Intervallo</div>
+                          </td>
                           <td className="p-3 font-bold text-orange-700">13:50-14:00</td>
                         </tr>
                         <tr className="border-b hover:bg-green-100/50 transition-colors">
-                          <td className="p-3 font-semibold">Settima ora</td>
+                          <td className="p-3 font-semibold">
+                            <div>7교시 | Settima ora</div>
+                          </td>
                           <td className="p-3">14:00-14:50</td>
                         </tr>
                         <tr className="hover:bg-green-100/50 transition-colors">
-                          <td className="p-3 font-semibold">Ottava ora</td>
+                          <td className="p-3 font-semibold">
+                            <div>8교시 | Ottava ora</div>
+                          </td>
                           <td className="p-3">14:50-15:40</td>
                         </tr>
                       </tbody>
@@ -201,8 +227,9 @@ const Index = () => {
                       <div className="text-lg mb-1">기술 연구소</div>
                       <div>Istituto Tecnico</div>
                     </h4>
-                    <p className="text-foreground/70">
-                      Diploma di Perito Agrario con specializzazioni in Gestione Ambiente e Territorio (GAT) o Produzioni e Trasformazioni (PT)
+                    <p className="text-foreground/70 mb-2">
+                      <div className="text-sm mb-1">환경 및 영토 관리(GAT) 또는 생산 및 가공(PT) 전문화를 갖춘 농업 전문가 학위</div>
+                      <div>Diploma di Perito Agrario con specializzazioni in Gestione Ambiente e Territorio (GAT) o Produzioni e Trasformazioni (PT)</div>
                     </p>
                   </Card>
 
@@ -212,7 +239,8 @@ const Index = () => {
                       <div>Professionale Statale</div>
                     </h4>
                     <p className="text-foreground/70">
-                      Indirizzo: Agricoltura, sviluppo rurale, valorizzazione dei prodotti e del territorio e gestione delle risorse forestali e montane
+                      <div className="text-sm mb-1">농업, 농촌 개발, 제품 및 영토 강화, 산림 및 산악 자원 관리</div>
+                      <div>Indirizzo: Agricoltura, sviluppo rurale, valorizzazione dei prodotti e del territorio e gestione delle risorse forestali e montane</div>
                     </p>
                   </Card>
 
@@ -222,7 +250,8 @@ const Index = () => {
                       <div>Formazione Professionale (IEFP)</div>
                     </h4>
                     <p className="text-foreground/70">
-                      Qualifica di Operatore Agricolo e Diploma di Tecnico Agricolo (IEFP Regionale)
+                      <div className="text-sm mb-1">농업 운영자 자격증 및 농업 기술자 학위 (지역 IEFP)</div>
+                      <div>Qualifica di Operatore Agricolo e Diploma di Tecnico Agricolo (IEFP Regionale)</div>
                     </p>
                   </Card>
 
@@ -232,7 +261,8 @@ const Index = () => {
                       <div>Corsi Serali (IDA)</div>
                     </h4>
                     <p className="text-foreground/70">
-                      Percorsi per adulti e lavoratori, tecnici e professionali
+                      <div className="text-sm mb-1">성인 및 근로자를 위한 기술 및 전문 교육 과정</div>
+                      <div>Percorsi per adulti e lavoratori, tecnici e professionali</div>
                     </p>
                   </Card>
                 </div>
@@ -251,10 +281,10 @@ const Index = () => {
                       <div>Laboratori All'Avanguardia</div>
                     </h4>
                     <ul className="space-y-2 text-foreground/70">
-                      <li>• Laboratorio di chimica e biologia/biotecnologie</li>
-                      <li>• Laboratorio di meristematica</li>
-                      <li>• Laboratorio di trasformazione dei prodotti</li>
-                      <li>• Aula con deprivazione sensoriale</li>
+                      <li><div className="text-sm">• 화학 및 생물학/생명공학 실험실</div><div className="text-xs">• Laboratorio di chimica e biologia/biotecnologie</div></li>
+                      <li><div className="text-sm">• 분열조직 실험실</div><div className="text-xs">• Laboratorio di meristematica</div></li>
+                      <li><div className="text-sm">• 제품 가공 실험실</div><div className="text-xs">• Laboratorio di trasformazione dei prodotti</div></li>
+                      <li><div className="text-sm">• 감각 차단 교실</div><div className="text-xs">• Aula con deprivazione sensoriale</div></li>
                     </ul>
                   </Card>
 
@@ -264,10 +294,10 @@ const Index = () => {
                       <div>Spazi e Didattica Innovativa</div>
                     </h4>
                     <ul className="space-y-2 text-foreground/70">
-                      <li>• 30 aule con Digital Board</li>
-                      <li>• 2 aule TEAL</li>
-                      <li>• Azienda Ferrazzi Cova con serra</li>
-                      <li>• Palestra e Aula Magna</li>
+                      <li><div className="text-sm">• 디지털 보드가 있는 30개 교실</div><div className="text-xs">• 30 aule con Digital Board</div></li>
+                      <li><div className="text-sm">• TEAL 교실 2개</div><div className="text-xs">• 2 aule TEAL</div></li>
+                      <li><div className="text-sm">• 온실이 있는 Ferrazzi Cova 농장</div><div className="text-xs">• Azienda Ferrazzi Cova con serra</div></li>
+                      <li><div className="text-sm">• 체육관 및 강당</div><div className="text-xs">• Palestra e Aula Magna</div></li>
                     </ul>
                   </Card>
                 </div>
@@ -324,8 +354,9 @@ const Index = () => {
                   <div className="text-xl mb-1">깊은 뿌리, 미래 비전</div>
                   <div>Radici Profonde, Visione Futura</div>
                 </h4>
-                <p className="text-lg text-foreground/80">
-                  L'Istituto Mendel unisce la ricca tradizione rurale del territorio con l'innovazione scientifica e didattica, formando professionisti in linea con le sfide dell'agricoltura moderna.
+                <p className="text-lg text-foreground/80 mb-2">
+                  <div className="mb-2">멘델 연구소는 현대 농업의 과제에 부합하는 전문가를 양성하면서 영토의 풍부한 농촌 전통과 과학 및 교육 혁신을 결합합니다.</div>
+                  <div>L'Istituto Mendel unisce la ricca tradizione rurale del territorio con l'innovazione scientifica e didattica, formando professionisti in linea con le sfide dell'agricoltura moderna.</div>
                 </p>
               </Card>
 
@@ -342,7 +373,8 @@ const Index = () => {
                         <div>La Nascita</div>
                       </h4>
                       <p className="text-foreground/70">
-                        Fondazione dell'Istituto Agrario per volere di Francesco Ferrazzi e inaugurazione della sede e dell'Azienda Agraria annessa (oggi Ferrazzi-Cova), con l'obiettivo di "attuare e sperimentare nella pratica dei campi gli insegnamenti della scienza".
+                        <div className="text-sm mb-1">Francesco Ferrazzi의 뜻으로 농업 연구소를 설립하고 본부 및 부속 농업 회사(현재 Ferrazzi-Cova)를 개관했으며, "현장 실습에서 과학의 가르침을 실행하고 실험한다"는 목표를 세웠습니다.</div>
+                        <div>Fondazione dell'Istituto Agrario per volere di Francesco Ferrazzi e inaugurazione della sede e dell'Azienda Agraria annessa (oggi Ferrazzi-Cova), con l'obiettivo di "attuare e sperimentare nella pratica dei campi gli insegnamenti della scienza".</div>
                       </p>
                     </div>
                   </div>
@@ -359,7 +391,8 @@ const Index = () => {
                         <div>L'Istituto Tecnico</div>
                       </h4>
                       <p className="text-foreground/70">
-                        Ampliamento dell'offerta formativa con l'introduzione del percorso di Istituto Tecnico Agrario, consolidando la vocazione scientifica e professionale dell'ente.
+                        <div className="text-sm mb-1">농업 기술 연구소 과정을 도입하여 교육 프로그램을 확대하고 기관의 과학적 및 전문적 소명을 공고히 했습니다.</div>
+                        <div>Ampliamento dell'offerta formativa con l'introduzione del percorso di Istituto Tecnico Agrario, consolidando la vocazione scientifica e professionale dell'ente.</div>
                       </p>
                     </div>
                   </div>
@@ -376,7 +409,8 @@ const Index = () => {
                         <div>Intitolazione Ufficiale</div>
                       </h4>
                       <p className="text-foreground/70">
-                        L'Istituto viene intitolato a Gregor Johann Mendel, padre della genetica, sottolineando il legame tra l'agricoltura e le discipline scientifiche moderne.
+                        <div className="text-sm mb-1">연구소는 유전학의 아버지인 Gregor Johann Mendel의 이름을 따서 명명되어 농업과 현대 과학 분야 간의 연결을 강조했습니다.</div>
+                        <div>L'Istituto viene intitolato a Gregor Johann Mendel, padre della genetica, sottolineando il legame tra l'agricoltura e le discipline scientifiche moderne.</div>
                       </p>
                     </div>
                   </div>
@@ -393,7 +427,8 @@ const Index = () => {
                         <div>Innovazione e PNRR</div>
                       </h4>
                       <p className="text-foreground/70">
-                        L'Istituto si rinnova con l'attivazione di nuovi laboratori (meristematica, biotecnologie) e l'adozione di metodologie didattiche all'avanguardia (aule TEAL, Digital Board) grazie ai finanziamenti PNRR.
+                        <div className="text-sm mb-1">PNRR 자금 덕분에 새로운 실험실(분열조직, 생명공학)을 활성화하고 최첨단 교육 방법론(TEAL 교실, 디지털 보드)을 채택하여 연구소가 혁신되었습니다.</div>
+                        <div>L'Istituto si rinnova con l'attivazione di nuovi laboratori (meristematica, biotecnologie) e l'adozione di metodologie didattiche all'avanguardia (aule TEAL, Digital Board) grazie ai finanziamenti PNRR.</div>
                       </p>
                     </div>
                   </div>
@@ -426,7 +461,8 @@ const Index = () => {
                   <div>Indirizzo: Agraria, Agroalimentare e Agroindustria</div>
                 </h4>
                 <p className="text-lg">
-                  <strong>Durata:</strong> 5 anni | <strong>Diploma:</strong> Perito Agrario | <strong>Orario:</strong> 33 ore (1° anno), 32 ore (anni successivi)
+                  <div className="mb-1"><strong>기간:</strong> 5년 | <strong>학위:</strong> 농업 전문가 | <strong>시간:</strong> 33시간 (1학년), 32시간 (이후 학년)</div>
+                  <div><strong>Durata:</strong> 5 anni | <strong>Diploma:</strong> Perito Agrario | <strong>Orario:</strong> 33 ore (1° anno), 32 ore (anni successivi)</div>
                 </p>
               </Card>
 
@@ -443,7 +479,8 @@ const Index = () => {
                       <div>GAT - Gestione Ambiente e Territorio</div>
                     </h4>
                     <p className="text-foreground/70">
-                      Formazione su gestione territoriale, controllo ambientale, tutela delle risorse naturali e valorizzazione delle aree protette.
+                      <div className="text-sm mb-1">영토 관리, 환경 통제, 천연 자원 보호 및 보호 구역 강화에 대한 교육</div>
+                      <div>Formazione su gestione territoriale, controllo ambientale, tutela delle risorse naturali e valorizzazione delle aree protette.</div>
                     </p>
                   </Card>
 
@@ -453,7 +490,8 @@ const Index = () => {
                       <div>PT - Produzioni e Trasformazioni</div>
                     </h4>
                     <p className="text-foreground/70">
-                      Specializzazione in produzione, trasformazione e commercializzazione dei prodotti agroindustriali, con focus su qualità e sicurezza alimentare.
+                      <div className="text-sm mb-1">품질 및 식품 안전에 중점을 둔 농산업 제품의 생산, 가공 및 상업화 전문화</div>
+                      <div>Specializzazione in produzione, trasformazione e commercializzazione dei prodotti agroindustriali, con focus su qualità e sicurezza alimentare.</div>
                     </p>
                   </Card>
                 </div>
@@ -477,28 +515,35 @@ const Index = () => {
                   <div>Agricoltura, sviluppo rurale, valorizzazione dei prodotti del territorio</div>
                 </h4>
                 <p className="text-lg text-foreground/80">
-                  Percorso quinquennale che forma tecnici specializzati nella gestione delle attività agricole, forestali e dello sviluppo rurale.
+                  <div className="mb-1">농업, 산림 및 농촌 개발 활동 관리를 전문으로 하는 기술자를 양성하는 5년 과정</div>
+                  <div>Percorso quinquennale che forma tecnici specializzati nella gestione delle attività agricole, forestali e dello sviluppo rurale.</div>
                 </p>
               </Card>
 
               <div className="grid md:grid-cols-2 gap-6">
                 <Card className="p-6 border-l-4 border-green-500">
-                  <h4 className="text-xl font-bold text-green-700 mb-2">Competenze Chiave</h4>
+                  <h4 className="text-xl font-bold text-green-700 mb-2">
+                    <div className="text-lg mb-1">핵심 역량</div>
+                    <div>Competenze Chiave</div>
+                  </h4>
                   <ul className="space-y-2 text-foreground/70">
-                    <li>• Gestione aziendale agricola</li>
-                    <li>• Valorizzazione dei prodotti locali</li>
-                    <li>• Sviluppo sostenibile del territorio</li>
-                    <li>• Gestione risorse forestali</li>
+                    <li><div className="text-sm">• 농업 경영 관리</div><div className="text-xs">• Gestione aziendale agricola</div></li>
+                    <li><div className="text-sm">• 지역 제품 강화</div><div className="text-xs">• Valorizzazione dei prodotti locali</div></li>
+                    <li><div className="text-sm">• 영토의 지속 가능한 개발</div><div className="text-xs">• Sviluppo sostenibile del territorio</div></li>
+                    <li><div className="text-sm">• 산림 자원 관리</div><div className="text-xs">• Gestione risorse forestali</div></li>
                   </ul>
                 </Card>
 
                 <Card className="p-6 border-l-4 border-emerald-500">
-                  <h4 className="text-xl font-bold text-emerald-700 mb-2">Sbocchi Professionali</h4>
+                  <h4 className="text-xl font-bold text-emerald-700 mb-2">
+                    <div className="text-lg mb-1">진로</div>
+                    <div>Sbocchi Professionali</div>
+                  </h4>
                   <ul className="space-y-2 text-foreground/70">
-                    <li>• Operatore agricolo qualificato</li>
-                    <li>• Tecnico del settore agroalimentare</li>
-                    <li>• Gestione imprese agricole</li>
-                    <li>• Consulenza nel settore primario</li>
+                    <li><div className="text-sm">• 자격을 갖춘 농업 운영자</div><div className="text-xs">• Operatore agricolo qualificato</div></li>
+                    <li><div className="text-sm">• 농식품 부문 기술자</div><div className="text-xs">• Tecnico del settore agroalimentare</div></li>
+                    <li><div className="text-sm">• 농업 기업 관리</div><div className="text-xs">• Gestione imprese agricole</div></li>
+                    <li><div className="text-sm">• 1차 산업 컨설팅</div><div className="text-xs">• Consulenza nel settore primario</div></li>
                   </ul>
                 </Card>
               </div>
@@ -521,27 +566,46 @@ const Index = () => {
                   <div>Formazione Pratica e Orientamento</div>
                 </h4>
                 <p className="text-lg text-foreground/80">
-                  La Formazione Scuola-Lavoro (ex PCTO - Alternanza Scuola-Lavoro) permette agli studenti di acquisire competenze professionali direttamente in aziende del settore, favorendo l'inserimento nel mondo del lavoro.
+                  <div className="mb-2">학교-직장 교육(이전 PCTO - 학교-직장 교대)을 통해 학생들은 해당 분야의 회사에서 직접 전문 기술을 습득하여 노동 시장 진입을 촉진할 수 있습니다.</div>
+                  <div>La Formazione Scuola-Lavoro (ex PCTO - Alternanza Scuola-Lavoro) permette agli studenti di acquisire competenze professionali direttamente in aziende del settore, favorendo l'inserimento nel mondo del lavoro.</div>
                 </p>
               </Card>
 
               <div className="grid md:grid-cols-3 gap-6">
                 <Card className="p-6 text-center hover:shadow-xl transition-all">
                   <div className="text-4xl mb-3">🏢</div>
-                  <h4 className="font-bold text-primary mb-2">Aziende Partner</h4>
-                  <p className="text-foreground/70">Collaborazioni con imprese agricole e agroindustriali del territorio</p>
+                  <h4 className="font-bold text-primary mb-2">
+                    <div className="text-base mb-1">파트너 회사</div>
+                    <div className="text-sm">Aziende Partner</div>
+                  </h4>
+                  <p className="text-foreground/70">
+                    <div className="text-sm mb-1">영토의 농업 및 농산업 기업과의 협력</div>
+                    <div className="text-xs">Collaborazioni con imprese agricole e agroindustriali del territorio</div>
+                  </p>
                 </Card>
 
                 <Card className="p-6 text-center hover:shadow-xl transition-all">
                   <div className="text-4xl mb-3">⏰</div>
-                  <h4 className="font-bold text-primary mb-2">Ore di Tirocinio</h4>
-                  <p className="text-foreground/70">Minimo 150 ore per licei, 210 ore per tecnici e professionali</p>
+                  <h4 className="font-bold text-primary mb-2">
+                    <div className="text-base mb-1">인턴십 시간</div>
+                    <div className="text-sm">Ore di Tirocinio</div>
+                  </h4>
+                  <p className="text-foreground/70">
+                    <div className="text-sm mb-1">고등학교 최소 150시간, 기술 및 전문 과정 210시간</div>
+                    <div className="text-xs">Minimo 150 ore per licei, 210 ore per tecnici e professionali</div>
+                  </p>
                 </Card>
 
                 <Card className="p-6 text-center hover:shadow-xl transition-all">
                   <div className="text-4xl mb-3">🎯</div>
-                  <h4 className="font-bold text-primary mb-2">Obiettivi</h4>
-                  <p className="text-foreground/70">Sviluppo competenze trasversali e orientamento professionale</p>
+                  <h4 className="font-bold text-primary mb-2">
+                    <div className="text-base mb-1">목표</div>
+                    <div className="text-sm">Obiettivi</div>
+                  </h4>
+                  <p className="text-foreground/70">
+                    <div className="text-sm mb-1">범분야 역량 개발 및 진로 지도</div>
+                    <div className="text-xs">Sviluppo competenze trasversali e orientamento professionale</div>
+                  </p>
                 </Card>
               </div>
             </TabsContent>
@@ -563,7 +627,8 @@ const Index = () => {
                   <div>Apertura al Mondo</div>
                 </h4>
                 <p className="text-lg text-foreground/80">
-                  L'Istituto Mendel promuove scambi culturali, progetti Erasmus+ e collaborazioni internazionali per offrire agli studenti un'esperienza formativa europea e globale.
+                  <div className="mb-2">멘델 연구소는 학생들에게 유럽 및 글로벌 교육 경험을 제공하기 위해 문화 교류, Erasmus+ 프로젝트 및 국제 협력을 촉진합니다.</div>
+                  <div>L'Istituto Mendel promuove scambi culturali, progetti Erasmus+ e collaborazioni internazionali per offrire agli studenti un'esperienza formativa europea e globale.</div>
                 </p>
               </Card>
 
@@ -574,7 +639,8 @@ const Index = () => {
                     <div>🌍 Programmi Erasmus+</div>
                   </h4>
                   <p className="text-foreground/70">
-                    Opportunità di mobilità europea per studenti e docenti, con esperienze di studio e tirocinio all'estero.
+                    <div className="text-sm mb-1">학생과 교사를 위한 유럽 이동 기회, 해외 학습 및 인턴십 경험 제공</div>
+                    <div>Opportunità di mobilità europea per studenti e docenti, con esperienze di studio e tirocinio all'estero.</div>
                   </p>
                 </Card>
 
@@ -584,7 +650,8 @@ const Index = () => {
                     <div>🤝 Partnership Internazionali</div>
                   </h4>
                   <p className="text-foreground/70">
-                    Collaborazioni con scuole e istituzioni europee per progetti didattici congiunti e scambi culturali.
+                    <div className="text-sm mb-1">공동 교육 프로젝트 및 문화 교류를 위한 유럽 학교 및 기관과의 협력</div>
+                    <div>Collaborazioni con scuole e istituzioni europee per progetti didattici congiunti e scambi culturali.</div>
                   </p>
                 </Card>
               </div>
@@ -610,8 +677,8 @@ const Index = () => {
                   <strong>IIS Gregorio Mendel</strong>
                 </p>
                 <p className="text-foreground/70">
-                  Via Padre Beccaro, 4<br />
-                  20020 Villa Cortese (MI)<br />
+                  Via Ferrazzi 15<br />
+                  20035 Villa Cortese (MI)<br />
                   Italia
                 </p>
               </Card>
@@ -623,8 +690,8 @@ const Index = () => {
                     <div>📞 Telefono</div>
                   </h4>
                   <p className="text-lg">
-                    <a href="tel:+390331438046" className="text-primary hover:underline">
-                      +39 0331 438046
+                    <a href="tel:+390331434311" className="text-primary hover:underline">
+                      0331434311
                     </a>
                   </p>
                 </Card>
@@ -634,11 +701,24 @@ const Index = () => {
                     <div className="text-lg mb-1">✉️ 이메일</div>
                     <div>✉️ Email</div>
                   </h4>
-                  <p className="text-lg">
-                    <a href="mailto:miis05400x@istruzione.it" className="text-primary hover:underline break-all">
-                      miis05400x@istruzione.it
-                    </a>
-                  </p>
+                  <div className="text-lg space-y-2">
+                    <div>
+                      <div className="text-sm text-muted-foreground">일반:</div>
+                      <a href="mailto:miis08300x@istruzione.it" className="text-primary hover:underline break-all">
+                        miis08300x@istruzione.it
+                      </a>
+                    </div>
+                    <div>
+                      <div className="text-sm text-muted-foreground">PEC:</div>
+                      <a href="mailto:miis08300x@pec.istruzione.it" className="text-primary hover:underline break-all">
+                        miis08300x@pec.istruzione.it
+                      </a>
+                    </div>
+                    <div>
+                      <div className="text-sm text-muted-foreground">Codice meccanografico:</div>
+                      <span className="font-mono">MIIS08300X</span>
+                    </div>
+                  </div>
                 </Card>
               </div>
 
@@ -666,16 +746,24 @@ const Index = () => {
                 </h3>
 
                 <Card className="p-6 bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-500">
-                  <h4 className="font-bold text-blue-700 mb-2">Treno + Autobus</h4>
+                  <h4 className="font-bold text-blue-700 mb-2">
+                    <div className="mb-1">기차 + 버스</div>
+                    <div className="text-sm">Treno + Autobus</div>
+                  </h4>
                   <p className="text-foreground/70">
-                    Stazione di Parabiago o Legnano, poi autobus linee locali verso Villa Cortese
+                    <div className="text-sm mb-1">Parabiago 또는 Legnano 역, 그런 다음 Villa Cortese 방향 지역 버스</div>
+                    <div className="text-xs">Stazione di Parabiago o Legnano, poi autobus linee locali verso Villa Cortese</div>
                   </p>
                 </Card>
 
                 <Card className="p-6 bg-gradient-to-r from-green-50 to-emerald-50 border-l-4 border-green-500">
-                  <h4 className="font-bold text-green-700 mb-2">Auto</h4>
+                  <h4 className="font-bold text-green-700 mb-2">
+                    <div className="mb-1">자동차</div>
+                    <div className="text-sm">Auto</div>
+                  </h4>
                   <p className="text-foreground/70">
-                    Autostrada A8/A4, uscita Legnano, poi SS527 direzione Villa Cortese
+                    <div className="text-sm mb-1">A8/A4 고속도로, Legnano 출구, 그런 다음 SS527 Villa Cortese 방향</div>
+                    <div className="text-xs">Autostrada A8/A4, uscita Legnano, poi SS527 direzione Villa Cortese</div>
                   </p>
                 </Card>
               </div>
