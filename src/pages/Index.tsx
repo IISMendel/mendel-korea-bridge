@@ -7,7 +7,7 @@ const Index = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   // Immagini dalla galleria locale
-  const galleryImages = Array.from({ length: 38 }, (_, i) => 
+  const galleryImages = Array.from({ length: 43 }, (_, i) => 
     `/mendel-korea-bridge/gallery/IMG_${String(i + 1).padStart(4, '0')}.JPG`
   );
 
