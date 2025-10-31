@@ -6,9 +6,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 const Index = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
-  // Immagini dalla galleria GitHub
+  // Immagini dalla galleria locale
   const galleryImages = Array.from({ length: 29 }, (_, i) => 
-    `https://iismendel.github.io/presentazione-Mendel-con-galleria-fotografica/IMG_${String(i + 1).padStart(4, '0')}.JPG`
+    `/mendel-korea-bridge/gallery/IMG_${String(i + 1).padStart(4, '0')}.JPG`
   );
 
   return (
