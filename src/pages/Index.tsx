@@ -34,28 +34,52 @@ const Index = () => {
           <Tabs defaultValue="home" className="w-full">
             <TabsList className="w-full flex flex-wrap justify-center gap-3 p-6 bg-white/90 sticky top-0 z-50 backdrop-blur-lg border-b-4 border-primary/40 rounded-none shadow-lg">
               <TabsTrigger value="home" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-primary/20 text-primary border-primary/50 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/30 transition-all">
-                🏠 HOME
+                <div className="text-center">
+                  <div className="text-sm">🏠 홈</div>
+                  <div className="text-xs">HOME</div>
+                </div>
               </TabsTrigger>
               <TabsTrigger value="storia" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-primary/20 text-primary border-primary/50 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/30 transition-all">
-                📖 STORIA
+                <div className="text-center">
+                  <div className="text-sm">📖 역사</div>
+                  <div className="text-xs">STORIA</div>
+                </div>
               </TabsTrigger>
               <TabsTrigger value="tecnico" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-secondary/20 text-secondary border-secondary/50 data-[state=active]:bg-secondary data-[state=active]:text-white data-[state=active]:border-secondary data-[state=active]:shadow-lg hover:bg-secondary/30 transition-all">
-                🎓 TECNICO
+                <div className="text-center">
+                  <div className="text-sm">🎓 기술</div>
+                  <div className="text-xs">TECNICO</div>
+                </div>
               </TabsTrigger>
               <TabsTrigger value="professionale" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-secondary/20 text-secondary border-secondary/50 data-[state=active]:bg-secondary data-[state=active]:text-white data-[state=active]:border-secondary data-[state=active]:shadow-lg hover:bg-secondary/30 transition-all">
-                🔧 PROFESSIONALE
+                <div className="text-center">
+                  <div className="text-sm">🔧 전문</div>
+                  <div className="text-xs">PROFESSIONALE</div>
+                </div>
               </TabsTrigger>
               <TabsTrigger value="pcto" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-primary/20 text-primary border-primary/50 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/30 transition-all">
-                💼 PCTO
+                <div className="text-center">
+                  <div className="text-sm">💼 PCTO</div>
+                  <div className="text-xs">PCTO</div>
+                </div>
               </TabsTrigger>
               <TabsTrigger value="internazionalizzazione" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-secondary/20 text-secondary border-secondary/50 data-[state=active]:bg-secondary data-[state=active]:text-white data-[state=active]:border-secondary data-[state=active]:shadow-lg hover:bg-secondary/30 transition-all">
-                🌍 INTERNAZIONALIZZAZIONE
+                <div className="text-center">
+                  <div className="text-sm">🌍 국제화</div>
+                  <div className="text-xs">INTERNAZIONALIZZAZIONE</div>
+                </div>
               </TabsTrigger>
               <TabsTrigger value="contatti" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-primary/20 text-primary border-primary/50 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/30 transition-all">
-                📍 CONTATTI
+                <div className="text-center">
+                  <div className="text-sm">📍 연락처</div>
+                  <div className="text-xs">CONTATTI</div>
+                </div>
               </TabsTrigger>
               <TabsTrigger value="galleria" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-secondary/20 text-secondary border-secondary/50 data-[state=active]:bg-secondary data-[state=active]:text-white data-[state=active]:border-secondary data-[state=active]:shadow-lg hover:bg-secondary/30 transition-all">
-                📸 GALLERIA
+                <div className="text-center">
+                  <div className="text-sm">📸 갤러리</div>
+                  <div className="text-xs">GALLERIA</div>
+                </div>
               </TabsTrigger>
             </TabsList>
 
