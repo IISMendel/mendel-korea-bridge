@@ -32,30 +32,30 @@ const Index = () => {
         {/* Main Content Card */}
         <Card className="bg-white/95 backdrop-blur-xl rounded-[2rem] md:rounded-[3rem] shadow-2xl overflow-hidden">
           <Tabs defaultValue="home" className="w-full">
-            <TabsList className="w-full flex flex-wrap justify-start gap-1 p-4 bg-muted/50 sticky top-0 z-50 backdrop-blur-lg border-b-2 border-primary/30 rounded-none">
-              <TabsTrigger value="home" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
-                🏠 Home
+            <TabsList className="w-full flex flex-wrap justify-center gap-3 p-6 bg-white/90 sticky top-0 z-50 backdrop-blur-lg border-b-4 border-primary/40 rounded-none shadow-lg">
+              <TabsTrigger value="home" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+                🏠 HOME
               </TabsTrigger>
-              <TabsTrigger value="storia" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
-                📖 Storia
+              <TabsTrigger value="storia" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+                📖 STORIA
               </TabsTrigger>
-              <TabsTrigger value="tecnico" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
-                🎓 Tecnico
+              <TabsTrigger value="tecnico" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+                🎓 TECNICO
               </TabsTrigger>
-              <TabsTrigger value="professionale" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
-                🔧 Professionale
+              <TabsTrigger value="professionale" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+                🔧 PROFESSIONALE
               </TabsTrigger>
-              <TabsTrigger value="pcto" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
+              <TabsTrigger value="pcto" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
                 💼 PCTO
               </TabsTrigger>
-              <TabsTrigger value="internazionalizzazione" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
-                🌍 Internazionalizzazione
+              <TabsTrigger value="internazionalizzazione" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+                🌍 INTERNAZIONALIZZAZIONE
               </TabsTrigger>
-              <TabsTrigger value="contatti" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
-                📍 Contatti
+              <TabsTrigger value="contatti" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+                📍 CONTATTI
               </TabsTrigger>
-              <TabsTrigger value="galleria" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
-                📸 Galleria
+              <TabsTrigger value="galleria" className="px-6 py-3 text-base font-bold rounded-xl border-2 border-primary/30 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/10 transition-all">
+                📸 GALLERIA
               </TabsTrigger>
             </TabsList>
 
