@@ -1,0 +1,54 @@
+# Nome del workflow
+name: Deploy Vite/React Project to GitHub Pages
+
+# Trigger: esegui questo workflow ogni volta che viene fatto un push sul branch 'main'
+on:
+  push:
+    branches:
+      - main # Assicurati che questo sia il tuo branch principale
+
+# Permessi richiesti per il deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Lavori da eseguire
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # Ambiente di esecuzione
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          # Importante per un corretto history fetch
+          fetch-depth: 0 
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20 # Usa una versione stabile
+
+      - name: Install Dependencies
+        # Questo installa tutte le librerie (node_modules)
+        run: npm install 
+
+      - name: Build Project (Crea la cartella 'dist')
+        # Esegue la compilazione, usando la "base" che hai corretto
+        run: npm run build
+
+      # --- Sezione Deployment su GitHub Pages ---
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # La cartella di output standard di Vite è 'dist'
+          path: './dist' 
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
