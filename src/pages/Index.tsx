@@ -32,7 +32,7 @@ const Index = () => {
         {/* Main Content Card */}
         <Card className="bg-white/95 backdrop-blur-xl rounded-[2rem] md:rounded-[3rem] shadow-2xl overflow-hidden">
           <Tabs defaultValue="home" className="w-full">
-            <TabsList className="w-full flex flex-wrap justify-center gap-3 p-6 bg-white/90 sticky top-0 z-50 backdrop-blur-lg border-b-4 border-primary/40 rounded-none shadow-lg">
+            <TabsList className="w-full flex flex-wrap justify-center gap-3 p-6 bg-white/90 sticky top-0 z-50 backdrop-blur-lg rounded-none shadow-lg">
               <TabsTrigger value="home" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-primary/20 text-primary border-primary/50 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/30 transition-all">
                 <div className="text-center">
                   <div className="text-sm">🏠 홈</div>
