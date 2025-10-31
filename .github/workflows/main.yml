@@ -17,6 +17,10 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest # Ambiente di esecuzione
+        environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
