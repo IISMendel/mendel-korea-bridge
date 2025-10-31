@@ -59,8 +59,8 @@ const Index = () => {
               </TabsTrigger>
               <TabsTrigger value="pcto" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-primary/20 text-primary border-primary/50 data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:border-primary data-[state=active]:shadow-lg hover:bg-primary/30 transition-all">
                 <div className="text-center">
-                  <div className="text-sm">💼 PCTO</div>
-                  <div className="text-xs">PCTO</div>
+                  <div className="text-sm">💼 학교-직장 교육</div>
+                  <div className="text-xs">FORMAZIONE SCUOLA-LAVORO</div>
                 </div>
               </TabsTrigger>
               <TabsTrigger value="internazionalizzazione" className="px-6 py-3 text-base font-bold rounded-xl border-2 bg-secondary/20 text-secondary border-secondary/50 data-[state=active]:bg-secondary data-[state=active]:text-white data-[state=active]:border-secondary data-[state=active]:shadow-lg hover:bg-secondary/30 transition-all">
@@ -495,14 +495,14 @@ const Index = () => {
               </div>
             </TabsContent>
 
-            {/* PCTO */}
+            {/* FORMAZIONE SCUOLA-LAVORO */}
             <TabsContent value="pcto" className="p-6 md:p-12 space-y-8">
               <div className="space-y-2">
                 <h2 className="text-3xl md:text-5xl font-black bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                  학교-직장 연계 (PCTO)
+                  학교-직장 연계 교육
                 </h2>
                 <h3 className="text-2xl md:text-4xl font-bold text-primary">
-                  Percorsi per le Competenze Trasversali e l'Orientamento (PCTO)
+                  Formazione Scuola-Lavoro
                 </h3>
               </div>
 
@@ -512,7 +512,7 @@ const Index = () => {
                   <div>Formazione Pratica e Orientamento</div>
                 </h4>
                 <p className="text-lg text-foreground/80">
-                  I PCTO (ex Alternanza Scuola-Lavoro) permettono agli studenti di acquisire competenze professionali direttamente in aziende del settore, favorendo l'inserimento nel mondo del lavoro.
+                  La Formazione Scuola-Lavoro (ex PCTO - Alternanza Scuola-Lavoro) permette agli studenti di acquisire competenze professionali direttamente in aziende del settore, favorendo l'inserimento nel mondo del lavoro.
                 </p>
               </Card>
 
