@@ -282,17 +282,26 @@ const Index = () => {
                 <div className="flex flex-wrap gap-4 justify-center">
                   <Button asChild size="lg" className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 rounded-full px-6">
                     <a href="https://agrariomendel.edu.it/" target="_blank" rel="noopener noreferrer">
-                      🌐 Sito Ufficiale
+                      <div className="text-center">
+                        <div className="text-sm">🌐 공식 웹사이트</div>
+                        <div className="text-xs">SITO UFFICIALE</div>
+                      </div>
                     </a>
                   </Button>
                   <Button asChild size="lg" className="bg-gradient-to-r from-red-600 to-red-700 hover:opacity-90 rounded-full px-6">
                     <a href="https://agrariomendel.edu.it/comunicati/1619-canale-youtube-delliis-mendel" target="_blank" rel="noopener noreferrer">
-                      🎥 YouTube
+                      <div className="text-center">
+                        <div className="text-sm">🎥 유튜브</div>
+                        <div className="text-xs">YOUTUBE</div>
+                      </div>
                     </a>
                   </Button>
                   <Button asChild size="lg" className="bg-gradient-to-r from-pink-600 to-purple-600 hover:opacity-90 rounded-full px-6">
                     <a href="https://agrariomendel.edu.it/comunicati/740-canale-instagram-iis-mendel" target="_blank" rel="noopener noreferrer">
-                      📷 Instagram
+                      <div className="text-center">
+                        <div className="text-sm">📷 인스타그램</div>
+                        <div className="text-xs">INSTAGRAM</div>
+                      </div>
                     </a>
                   </Button>
                 </div>
