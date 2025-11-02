@@ -24,7 +24,7 @@ const Index = () => {
             </h1>
             <p className="text-lg md:text-2xl text-white/95 font-medium">
               <div className="mb-1">빌라 코르테세(밀라노) - 농업과 환경의 미래를 발견하세요!</div>
-              <div>Benvenuti al nostro Open Day! Scoprite il futuro dell'Agraria e dell'Ambiente a Villa Cortese (MI)</div>
+              <div>Scoprite il futuro dell'Agraria e dell'Ambiente a Villa Cortese (MI)</div>
             </p>
           </div>
         </header>
